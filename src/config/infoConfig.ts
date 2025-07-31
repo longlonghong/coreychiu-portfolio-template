@@ -7,24 +7,24 @@ export * from './activity'
 
 
 // personal info
-export const name = 'Corey Chiu'
-export const headline = 'Software engineer, Full-Stack web developer, and indie hacker.'
-export const introduction = 'I’m Corey, a software engineer based in Shenzhen, China. I like coding, and building interesting things'
-export const email = 'xxx@gmail.com'
-export const githubUsername = 'iamcorey'
+export const name = 'Long Hung'
+export const headline = 'Product designer'
+export const introduction = 'Hi there, I’m Long Hung, a product designer based in New York. I design thoughtful digital experiences, reflect through writing, and co-founded a local cat rescue.'
+export const email = 'wanjunghung@gmail.com'
+export const githubUsername = 'longlonghong'
 
 // about page
-export const aboutMeHeadline = "I'm Corey Chiu, a software engineer based in Shenzhen, China."
+export const aboutMeHeadline = "I’m Long Hung, a product designer based in New York."
 export const aboutParagraphs = [
-  "I love coding. I learned programming when I in college. I wrote my first program in Java when I was 18.",
-  "I have a lot of hobbies, such as travelling, photography, watching movies, music and so on.",
-  "I'm working as a software develop engineer in Shenzhen, China now. And I'm building a lot of side projects in my spare time."
+  "Hi there, I'm Long. I currently work at StreetEasy (part of the Zillow Group), where my passion lies in crafting thoughtful digital experiences.",
+  "I’ve worked in areas like mobile gaming, fintech, real estate, and some personal and professional websites. I love design as a way to solve problems for people, not limited to any one industry. I bring my designer hat to explore different challenges, research deeply, and create with care and curiosity.",
+  "Outside of work, I co-founded a local cat rescue with friends. I also enjoy wandering the city, traveling, cooking, and journaling."
 ]
 
 
 // blog
-export const blogHeadLine = "What I've thinking about."
-export const blogIntro = "I've written something about AI, programming and life."
+export const blogHeadLine = "Things I've been thinking about."
+export const blogIntro = "I write about product design, creative ideas, and what I’ve been learning through real work and reflection."
 
 
 // social links
@@ -38,45 +38,15 @@ export type SocialLinkType = {
 
 export const socialLinks: Array<SocialLinkType> = [
   {
-    name: 'X',
-    icon: 'x',
-    href: 'https://x.com/realcoreychiu',
+    name: 'LinkedIn',
+    icon: 'linkedin',
+    href: 'https://www.linkedin.com/in/wanjunghung/',
     external: true
   },
   {
-    name: 'Bsky',
-    icon: 'bsky',
-    href: 'https://bsky.app/profile/coreychiu.com',
-    external: true
-  },
-  {
-    name: 'Jike',
-    icon: 'pill',
-    href: 'https://okjk.co/P7c1zU',
-    external: true
-  },
-  {
-    name: 'Github',
+    name: 'GitHub',
     icon: 'github',
-    href: 'https://github.com/iamcorey',
-    external: true
-  },
-  {
-    name: 'Wechat',
-    icon: 'wechat',
-    href: 'https://mp.weixin.qq.com/s/DxnRgqNfgzXIhqj6w_x0dQ',
-    external: true
-  },
-  {
-    name: 'Discord',
-    icon: 'discord',
-    href: 'https://discord.gg/xTxRg3Ej',
-    external: true
-  },
-  {
-    name: 'Ko-fi',
-    icon: 'coffee',
-    href: 'https://ko-fi.com/coreychiu',
+    href: 'https://github.com/longlonghong',
     external: true
   }
 ]
